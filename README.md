@@ -71,8 +71,10 @@ Salida =
 ## Palíndromo
 [Palíndromo](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/palindromo.dist.js "Palíndromo")
 
-Palíndromo: palabra o frase que se lee igual en un sentido que en otro, por ejemplo Ana (Si se trata de números en lugar de letras, se llama capicúa)
+Palíndromo: palabra o frase que se lee igual en un sentido que en otro, por ejemplo Ana (Si se trata de números en lugar de letras, se llama capicúa.
+
 **OBJETIVO:**  programar una función que determine si una entrada de tipo string es palíndromo o no.
+
 **REGLAS:** 
 1. la entrada es de tipo string y sólo puede contener letras (mayúsculas y minúsculas) y espacios
 2. las entradas vacías o con una letra se consideran palíndromos
@@ -84,10 +86,10 @@ Palíndromo: palabra o frase que se lee igual en un sentido que en otro, por eje
  - entrada: Yo hago yoga hoy // salida: true
 
 ## Arreglos iguales
-[Arreglos iguales](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/arreglos-iguales.js "Arreglos iguales")
+[Arreglos iguales](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/arreglos-iguales.js "Arreglos iguales").
 
 **OBJETIVO:**  programar una función que determine si dos arreglos son iguales (tienen los mismos elementos, de igual tipo y extensión).
-** REGLAS:** 
+**REGLAS:** 
 1. los arreglos son numéricos
 2. no están vacíos (tienen por lo menos un elemento)
 
@@ -101,10 +103,39 @@ arreglo 4 = [1, 2, 8, 4, 9]
 - arreglo 1 y 3 no son iguales (8 es un número y '8' es un string)
 - arreglo 1 y 4 no son iguales
 
-## Arreglo Star Wars
-[Arreglos iguales](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/arreglos-iguales.js "Arreglos iguales")
+## Anagrama
+[Anagrama](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/test-anagrama.js "Anagrama")
 
-** GENERALES**
+ANAGRAMA: Una palabra es anagrama de otra si las dos tienen las mismas letras, con el mismo número de apariciones, pero en un orden diferente. 
+
+**OBJETIVO:**  Escribir una función que cheque si dos palabras son anagramas, devolviendo verdadero en caso de serlo o falso.
+
+**Entonces, es anagrama si:** 
+1. Las palabras tienen la misma extensión
+2. Las palabras tienen las mismas letras
+3. Las palabras tienen la misma cantidad de apariciones de las letras
+4. Las letras en las palabras tienen diferente orden
+
+**REGLAS:**
+1. Las palabras no llevarán acentos
+2. Las palabras sólo contrendrán letras y números
+3. Las palabras siempre estarán en minúscula
+
+**Ejemplos:** 
+- desamparador = desparramado
+- amor = roma
+
+## Fizz-buzz
+[Fizz-buzz](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/test-fizz-buzz.js "Fizz-buzz")
+
+**OBJETIVO:**  Escribir un programa que muestre en pantalla los números del 1 al 100, sustituyendo los múltiplos de 3 por la palabra "fizz", los múltiplos de 5 por "buzz" y los múltiplos de ambos, es decir, los múltiplos de 3 y 5 (o de 15), por la palabra "fizzbuzz".
+
+
+
+## Arreglo Star Wars
+[Arreglo Star Wars](https://github.com/RodriguezSanRosales/ejercicios-JS/blob/main/arreglos-starwars-dist.js "Arreglo Star Wars")
+
+**GENERALES**
 - Los callback son funciones usadas como argumentos (pasadas desde otra función)
 
 - Es una buena práctica guardar los callbacks (funciones) en constantes para que el código quede más estilizado y legible (versión 3, ver a continuación)
@@ -114,7 +145,7 @@ arreglo 4 = [1, 2, 8, 4, 9]
   - la segunda usando las funciones de flecha para representar una función
   - la tercera, se debe tratar de simplificar la versión anterios (siempre que sea posible, de no ser posible no se hará)
 
-** Documentación**
+**Documentación**
 - [MAP](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map "MAP")
 - [REDUCE](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce "REDUCE")
 - [FILTER](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter "FILTER")
